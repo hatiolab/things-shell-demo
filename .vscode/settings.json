@@ -1,0 +1,21 @@
+{
+  "clang-format.style": "file",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "search.exclude": {
+    "node_modules/": true,
+    "lib/": true
+  },
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "elements.json"
+      ],
+      "url": "./lib/analysis.schema.json"
+    }
+  ],
+  "html.format.wrapLineLength": 60,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
