@@ -9,11 +9,14 @@ var templates = [{
   group: 'shape', /* line|shape|textAndMedia|chartAndGauge|table|container|dataSource|IoT|3D|warehouse|form|etc */
   icon: '../', /* 또는, Object */
   template: {
-    type: 'button',
-    width: 100,
-    height: 100,
-    text: 'SAMPLE-BUTTON',
-    fillStyle: 'lightgray'
+    type: 'Round Button',
+    model: {
+      type: 'rect',
+      width: 100,
+      height: 100,
+      text: 'SAMPLE-BUTTON',
+      fillStyle: 'lightgray'
+    }
   }
 }];
 
