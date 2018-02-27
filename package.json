@@ -9,7 +9,7 @@
   },
   "things-shell": true,
   "dependencies": {
-    "@hatiolab/things-shell": "^0.2.16",
+    "@hatiolab/things-shell": "^0.2.22",
     "@things-elements/things-scene-billboard": "^0.1.2",
     "@things-elements/things-scene-clock": "^2.0.4",
     "@things-elements/things-scene-clone": "^2.0.6",

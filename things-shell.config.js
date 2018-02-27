@@ -1,8 +1,3 @@
-var components = [{
-  type: 'button',
-  source: './src/button.js'
-}];
-
 var templates = [{
   name: 'Round Button', /* 다국어 키 표현을 어떻게.. */
   description: '...', /* 다국어 키 표현을 어떻게.. */
@@ -15,7 +10,7 @@ var templates = [{
       width: 100,
       height: 100,
       text: 'SAMPLE-BUTTON',
-      fillStyle: 'lightgray'
+      fillStyle: 'red'
     }
   }
 }];
@@ -28,7 +23,6 @@ var editors = [{
 var locales = require('./locales');
 
 module.exports = {
-  components,
   templates,
   editors,
   locales
