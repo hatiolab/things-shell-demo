@@ -1,7 +1,7 @@
 {
   "name": "@things-elements/things-scene-demo",
   "version": "1.0.0",
-  "main": "things-scene-demo-min.js",
+  "main": "src/index.js",
   "license": "http://license.hatiolab.com/EULA",
   "author": "Hatio Lab. <heartyoh@hatiolab.com>",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "@hatiolab/things-shell": "^0.2.22",
     "@things-elements/things-scene-billboard": "^0.1.2",
+    "@things-elements/things-scene-chartjs": "^2.0.36",
     "@things-elements/things-scene-clock": "^2.0.4",
     "@things-elements/things-scene-clone": "^2.0.6",
     "@things-elements/things-scene-compass": "^2.0.2",
@@ -23,16 +24,17 @@
     "@things-elements/things-scene-indoor-map": "^2.0.11",
     "@things-elements/things-scene-legend": "^0.1.9",
     "@things-elements/things-scene-marker": "^2.0.3",
+    "@things-elements/things-scene-mpi": "^0.1.0",
     "@things-elements/things-scene-mqtt": "^0.1.14",
     "@things-elements/things-scene-progressbar": "^2.0.5",
     "@things-elements/things-scene-random": "^0.1.0",
     "@things-elements/things-scene-restful": "^0.1.4",
+    "@things-elements/things-scene-slam": "^0.1.1",
     "@things-elements/things-scene-stomp": "^0.1.6",
     "@things-elements/things-scene-tab": "^2.0.4",
     "@things-elements/things-scene-table": "^2.1.0",
+    "@things-elements/things-scene-traffic": "^0.1.2",
     "@things-elements/things-scene-visualizer": "^0.1.3",
-    "@things-elements/things-scene-wheel-sorter": "^2.0.24",
-    "chart.js": "^2.7.1",
-    "three": "^0.90.0"
+    "@things-elements/things-scene-wheel-sorter": "^2.0.24"
   }
 }
