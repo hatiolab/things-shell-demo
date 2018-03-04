@@ -9,8 +9,8 @@ var templates = [{
       type: 'abc',
       width: 100,
       height: 100,
-      text: 'BBBB',
-      fillStyle: 'red'
+      fillStyle: 'red',
+      abc: 'ABC'
     }
   }
 }];

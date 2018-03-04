@@ -8,7 +8,8 @@ const NATURE = {
     type: 'abc',
     label: 'abc',
     name: 'abc'
-  }]
+  }],
+  "value-property": 'abc'
 }
 
 export default class AbcComponent extends RectPath(Shape) {
@@ -23,17 +24,14 @@ export default class AbcComponent extends RectPath(Shape) {
       left,
       height,
       width
-    } = this.model;
+    } = this.bounds;
+
+    this.setState('text', this.state.abc);
 
     context.beginPath();
 
     context.rect(left, top, width, height);
   }
-
-  // _post_draw(context) {
-  //   this.drawStroke(context);
-  //   this.drawText(context);
-  // }
 
   get controls() { }
 

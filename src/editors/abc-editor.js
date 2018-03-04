@@ -8,7 +8,7 @@ export default class AbcEditor extends ThingsEditorProperty {
 
   static get editorTemplate() {
     return html`
-    <input type="text" value="{{value::change}}" fullwidth>
+    <input type="text" value="{{value::change}}">
     `;
   }
 
@@ -18,5 +18,3 @@ export default class AbcEditor extends ThingsEditorProperty {
 }
 
 customElements.define(AbcEditor.is, AbcEditor);
-
-console.log('AbcEditor', AbcEditor);
