@@ -26,9 +26,9 @@
   version "2.2.44"
   resolved "https://registry.yarnpkg.com/@hatiolab/things-scene/-/things-scene-2.2.44.tgz#d1577c17aee593849f6aafd3839d39495ee19466"
 
-"@hatiolab/things-shell@^0.2.20", "@hatiolab/things-shell@^0.2.22":
-  version "0.2.39"
-  resolved "https://registry.yarnpkg.com/@hatiolab/things-shell/-/things-shell-0.2.39.tgz#6684c89cd0b8c9023e01c31595de5dbee817a8e4"
+"@hatiolab/things-shell@^0.3.0":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@hatiolab/things-shell/-/things-shell-0.3.1.tgz#15992d136aeb7f896df133d51219160d1921b700"
   dependencies:
     "@hatiolab/things-scene" "^2.2.42"
     "@npm-polymer/intl-messageformat" "^1.3.0"
@@ -552,161 +552,146 @@
   optionalDependencies:
     websocket "^1.0.24"
 
-"@things-elements/things-scene-billboard@^0.1.2":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-billboard/-/things-scene-billboard-0.1.5.tgz#b8828b3a205a010f0c84a0776a17308a72161fb6"
+"@things-scene/billboard@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/billboard/-/billboard-0.2.0.tgz#1c128e48ab9fa50540871d6135755d77ca6ac9f5"
   dependencies:
     "@hatiolab/things-scene" "^2.2.44"
 
-"@things-elements/things-scene-chartjs@^2.0.36":
-  version "2.0.41"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-chartjs/-/things-scene-chartjs-2.0.41.tgz#a7062ac20843c71e59899da5a45f63aef97dca59"
+"@things-scene/chartjs@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/chartjs/-/chartjs-3.0.0.tgz#6543a2a8d719f8c901df51313be91d9d7edddc28"
   dependencies:
     "@hatiolab/things-scene" "^2.2.30"
     chart.js "2.4.0"
     tinycolor2 "^1.4.1"
 
-"@things-elements/things-scene-clock@^2.0.4":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-clock/-/things-scene-clock-2.0.7.tgz#3d4c303ca2e771c93b69936e94b6476e6c04bb44"
+"@things-scene/clock@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/clock/-/clock-2.1.0.tgz#bfe515c466a8fc18acc4dbc48f9181858375a707"
+  dependencies:
+    "@hatiolab/things-scene" "^2.2.36"
+    moment "^2.21.0"
+
+"@things-scene/clone@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/clone/-/clone-2.1.0.tgz#2f682be9837ce86e279a9c650fd1be71a3140964"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-clone@^2.0.6":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-clone/-/things-scene-clone-2.0.8.tgz#55a96012279d483c346ad53d23d9c4f8adf70c66"
+"@things-scene/compass@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/compass/-/compass-2.1.0.tgz#21644be684861d7d6b22cc067985516001262eb3"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-compass@^2.0.2":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-compass/-/things-scene-compass-2.0.6.tgz#4c7a3ce8284c688a971d2fcc9e25f1f308918f19"
+"@things-scene/echart@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/echart/-/echart-0.2.0.tgz#edfc469b0eb361ed1a485d7d4ae0f69e42b84233"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-echart@^0.1.1":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-echart/-/things-scene-echart-0.1.5.tgz#a5e6dfd131033f2f8fa0237de5a5cb024bf75e71"
-  dependencies:
-    "@hatiolab/things-scene" "^2.2.36"
-
-"@things-elements/things-scene-firebase@^0.1.11":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-firebase/-/things-scene-firebase-0.1.16.tgz#d5ede57020e7501361fb8c13f1315b0345cc51a8"
+"@things-scene/firebase@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/firebase/-/firebase-0.2.0.tgz#e246a01ee7633505d119e13a085d1fa188350f26"
   dependencies:
     "@hatiolab/things-scene" "^2.2.35"
 
-"@things-elements/things-scene-form@^0.1.18":
-  version "0.1.25"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-form/-/things-scene-form-0.1.25.tgz#2edacf4a2f7ad68ddb95e26eecabfdb3bfb0e458"
+"@things-scene/form@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/form/-/form-0.2.0.tgz#738f6f65559aa5f3488792e86df8949a6a8fb089"
   dependencies:
     "@hatiolab/things-scene" "^2.2.44"
 
-"@things-elements/things-scene-gauge@^2.0.8":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-gauge/-/things-scene-gauge-2.0.13.tgz#33c1bad0525c65e9b4f9c87b2bb9bd60557a43f5"
+"@things-scene/gauge@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/gauge/-/gauge-2.1.0.tgz#ac191c4851f658964deb51f828c602579299542b"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-google-map@0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-google-map/-/things-scene-google-map-0.1.10.tgz#724bea212bab69f68b08b89851151d1140f8d1d3"
-  dependencies:
-    "@hatiolab/things-scene" "^2.2.36"
-    lodash "^4.17.4"
-
-"@things-elements/things-scene-half-roundrect@^2.0.3":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-half-roundrect/-/things-scene-half-roundrect-2.0.5.tgz#6d507889dab1e48594bce4a5832312ac17991180"
+"@things-scene/google-map@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/google-map/-/google-map-0.2.0.tgz#a45eb77a0f60a182ef3a6ff22d7eb5d7c9688d67"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-indoor-map@^2.0.11":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-indoor-map/-/things-scene-indoor-map-2.0.13.tgz#458fd7f493d7a31ef8e2f2704339eb876470777b"
+"@things-scene/indoor-map@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/indoor-map/-/indoor-map-2.1.0.tgz#ff32c80ff46bf350ba4987b047d4a3a340460b35"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-legend@^0.1.9":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-legend/-/things-scene-legend-0.1.11.tgz#999891d4c4fe3b8a9e632f50a2a449e93572abb4"
+"@things-scene/marker@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/marker/-/marker-2.1.0.tgz#4169962707d5b4070f79053ced2b6ebd3c3587a6"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-marker@^2.0.3":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-marker/-/things-scene-marker-2.0.6.tgz#391d8c2fc22ca64ec241eca244b6b46eed3d570e"
-  dependencies:
-    "@hatiolab/things-scene" "^2.2.36"
-
-"@things-elements/things-scene-mpi@^0.1.0":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-mpi/-/things-scene-mpi-0.1.11.tgz#ab4ac226862832cac0da80486cfa51e8b54b4480"
+"@things-scene/mpi@^0.2.0":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@things-scene/mpi/-/mpi-0.2.4.tgz#9dee5060050b5914b0fcfce52f99bade3782308b"
   dependencies:
     "@hatiolab/things-scene" "^2.2.44"
-    "@things-elements/things-scene-random" "^0.1.2"
 
-"@things-elements/things-scene-mqtt@^0.1.14":
-  version "0.1.17"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-mqtt/-/things-scene-mqtt-0.1.17.tgz#fd59739acc314595514cd650a3a3d4c18dabe6fd"
+"@things-scene/mqtt@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/mqtt/-/mqtt-0.2.0.tgz#58722d86e663be260abed121905424c890e9badc"
   dependencies:
-    "@hatiolab/things-shell" "^0.2.20"
-    "@things-elements/things-scene-random" "^0.1.2"
     mqtt "^2.15.3"
 
-"@things-elements/things-scene-progressbar@^2.0.5":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-progressbar/-/things-scene-progressbar-2.0.7.tgz#81474c10e46a1a2447f3dfa4d93e8327455aa99d"
+"@things-scene/progressbar@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/progressbar/-/progressbar-2.1.0.tgz#458f8e7b23eb13e99e780c66fd6aab57aceb770a"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-random@^0.1.0", "@things-elements/things-scene-random@^0.1.2":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-random/-/things-scene-random-0.1.3.tgz#486ffc917766c678197395b9c3861d79d55a7aea"
+"@things-scene/random@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/random/-/random-0.2.0.tgz#ecbdd25ca50d829f2e35b5bca9eced9395517945"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-restful@^0.1.4":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-restful/-/things-scene-restful-0.1.8.tgz#5d53f57f929cb183f21caba050dd622ce3b09b74"
+"@things-scene/restful@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/restful/-/restful-0.2.0.tgz#44b62de96cc862b57dfeeea4c7a1bcf8633083c4"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-slam@^0.1.1":
+"@things-scene/slam@^0.1.2":
   version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-slam/-/things-scene-slam-0.1.2.tgz#9010889cfd47757d780da63ff05cf9fe62357bdd"
+  resolved "https://registry.yarnpkg.com/@things-scene/slam/-/slam-0.1.2.tgz#90f6803ef35d18ab9166916c2c90de9cb53f9ee5"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-stomp@^0.1.6":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-stomp/-/things-scene-stomp-0.1.9.tgz#6aa8321fd2af82ef0e126c700bb12fa8a61ee9f4"
+"@things-scene/stomp@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/stomp/-/stomp-0.2.0.tgz#2b19bb38bfb1f8aa316e06c9d454bf1c3863c0b3"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
     "@stomp/stompjs" "^4.0.2"
     sockjs-client "^1.1.4"
 
-"@things-elements/things-scene-tab@^2.0.4":
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-tab/-/things-scene-tab-2.0.5.tgz#d30b66c2b45cb503a52d8cfde7a89ea230ba5baf"
+"@things-scene/tab@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/tab/-/tab-2.1.0.tgz#baf1e55481b88b3f65b3d889278e1983de07a40f"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-table@^2.1.0":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-table/-/things-scene-table-2.1.2.tgz#910fe341a12482fa940fcf7e4e3ae9397ed50396"
+"@things-scene/table@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/table/-/table-2.2.0.tgz#5648bebf242c30be9d2985b790ccbb16e5a63792"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
-"@things-elements/things-scene-traffic@^0.1.2":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-traffic/-/things-scene-traffic-0.1.3.tgz#898cf1ca92e39042050d4dabdf263081f2dd24fb"
+"@things-scene/traffic@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/traffic/-/traffic-0.2.0.tgz#4c7634bb04273a558e6031e6155b7a9599303a5c"
   dependencies:
     "@hatiolab/things-scene" "^2.2.44"
 
-"@things-elements/things-scene-visualizer@^0.1.3":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-visualizer/-/things-scene-visualizer-0.1.8.tgz#d48625ceda7323f1040a37f79c273e18f1c617ca"
+"@things-scene/visualizer@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/visualizer/-/visualizer-0.2.0.tgz#816948e2d081bcf83d7c2c32688178ddfd8d9118"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
     heatmap.js "^2.0.5"
@@ -714,9 +699,9 @@
     three-mtl-loader "^1.0.2"
     three-obj-loader "^1.1.3"
 
-"@things-elements/things-scene-wheel-sorter@^2.0.24":
-  version "2.0.27"
-  resolved "https://registry.yarnpkg.com/@things-elements/things-scene-wheel-sorter/-/things-scene-wheel-sorter-2.0.27.tgz#77a24a9fdfed05e94f117039f1e69a195f6bf8a8"
+"@things-scene/wheel-sorter@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@things-scene/wheel-sorter/-/wheel-sorter-2.1.0.tgz#a9a67e8a9f86360a4f741355076b63ae835c64e3"
   dependencies:
     "@hatiolab/things-scene" "^2.2.36"
 
@@ -784,8 +769,8 @@ acorn@^4.0.3:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.13.tgz#105495ae5361d697bd195c825192e1ad7f253787"
 
 acorn@^5.0.0, acorn@^5.2.1, acorn@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.5.0.tgz#1abb587fbf051f94e3de20e6b26ef910b1828298"
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.5.1.tgz#84e05a9ea0acbe131227da50301e62464dc9c1d8"
 
 aframe@^0.7.1:
   version "0.7.1"
@@ -916,13 +901,25 @@ app-builder-bin-linux@1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/app-builder-bin-linux/-/app-builder-bin-linux-1.6.0.tgz#d7731d7988b8a740e74d591cbd565f168a266111"
 
+app-builder-bin-linux@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/app-builder-bin-linux/-/app-builder-bin-linux-1.7.1.tgz#925967add77c13d387e3fe88359a4b4dce82c525"
+
 app-builder-bin-mac@1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/app-builder-bin-mac/-/app-builder-bin-mac-1.6.0.tgz#c976da70796d67aeb7134a57899636f2581d1c67"
 
+app-builder-bin-mac@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/app-builder-bin-mac/-/app-builder-bin-mac-1.7.1.tgz#e5c2b49be82473a737e000cfccfc65a68f9cc62d"
+
 app-builder-bin-win@1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/app-builder-bin-win/-/app-builder-bin-win-1.6.0.tgz#528ef96430d519c270b4de260bea0ddc70df1733"
+
+app-builder-bin-win@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/app-builder-bin-win/-/app-builder-bin-win-1.7.1.tgz#e1ba3d6d645896552b28e4dd05525b39561b9b88"
 
 app-builder-bin@1.6.0:
   version "1.6.0"
@@ -931,6 +928,14 @@ app-builder-bin@1.6.0:
     app-builder-bin-linux "1.6.0"
     app-builder-bin-mac "1.6.0"
     app-builder-bin-win "1.6.0"
+
+app-builder-bin@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/app-builder-bin/-/app-builder-bin-1.7.1.tgz#c2540eb8b164c91c30bc8cf3f16b5c181f3f5c31"
+  optionalDependencies:
+    app-builder-bin-linux "1.7.1"
+    app-builder-bin-mac "1.7.1"
+    app-builder-bin-win "1.7.1"
 
 aproba@^1.0.3, aproba@^1.1.1:
   version "1.2.0"
@@ -1308,8 +1313,8 @@ babel-helpers@^6.24.1:
     babel-template "^6.24.1"
 
 babel-loader@^7.1.2:
-  version "7.1.3"
-  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.3.tgz#ff5b440da716e9153abb946251a9ab7670037b16"
+  version "7.1.4"
+  resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-7.1.4.tgz#e3463938bd4e6d55d1c174c5485d406a188ed015"
   dependencies:
     find-cache-dir "^1.0.0"
     loader-utils "^1.0.2"
@@ -1965,7 +1970,7 @@ builder-util-runtime@4.0.5, builder-util-runtime@^4.0.5:
     fs-extra-p "^4.5.0"
     sax "^1.2.4"
 
-builder-util@5.6.1, builder-util@^5.6.0:
+builder-util@5.6.1:
   version "5.6.1"
   resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-5.6.1.tgz#ab90845cb8949ea4ac81da0ce87b8ec3424cdbf9"
   dependencies:
@@ -1978,6 +1983,25 @@ builder-util@5.6.1, builder-util@^5.6.0:
     fs-extra-p "^4.5.2"
     is-ci "^1.1.0"
     js-yaml "^3.10.0"
+    lazy-val "^1.0.3"
+    semver "^5.5.0"
+    source-map-support "^0.5.3"
+    stat-mode "^0.2.2"
+    temp-file "^3.1.1"
+
+builder-util@5.6.3, builder-util@^5.6.0:
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-5.6.3.tgz#194288b979958832e0592fe91c8306ce207a60f1"
+  dependencies:
+    "7zip-bin" "~3.1.0"
+    app-builder-bin "1.7.1"
+    bluebird-lst "^1.0.5"
+    builder-util-runtime "^4.0.5"
+    chalk "^2.3.2"
+    debug "^3.1.0"
+    fs-extra-p "^4.5.2"
+    is-ci "^1.1.0"
+    js-yaml "^3.11.0"
     lazy-val "^1.0.3"
     semver "^5.5.0"
     source-map-support "^0.5.3"
@@ -2102,12 +2126,12 @@ caniuse-api@^2.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000812"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000812.tgz#29c28dd6927ee43e8c2ab648e5236ac916c97d69"
+  version "1.0.30000813"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000813.tgz#e0a1c603f8880ad787b2a35652b2733f32a5e29a"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805:
-  version "1.0.30000812"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000812.tgz#d173b686b49bc941fa18ff2e7e533048e20ed92c"
+  version "1.0.30000813"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000813.tgz#7b25e27fdfb8d133f3c932b01f77452140fcc6c9"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -2295,8 +2319,8 @@ clean-css@2.2.x:
     commander "2.2.x"
 
 clean-css@4.1.x:
-  version "4.1.9"
-  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.1.9.tgz#35cee8ae7687a49b98034f70de00c4edd3826301"
+  version "4.1.11"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.1.11.tgz#2ecdf145aba38f54740f26cefd0ff3e03e125d6a"
   dependencies:
     source-map "0.5.x"
 
@@ -3165,7 +3189,36 @@ ejs@^2.5.7:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.7.tgz#cc872c168880ae3c7189762fd5ffc00896c9518a"
 
-electron-builder-lib@20.2.1, electron-builder-lib@~20.2.0:
+electron-builder-lib@20.3.1:
+  version "20.3.1"
+  resolved "https://registry.yarnpkg.com/electron-builder-lib/-/electron-builder-lib-20.3.1.tgz#b479a03a718fa443ff29e0623c1ec661199e3eae"
+  dependencies:
+    "7zip-bin" "~3.1.0"
+    app-builder-bin "1.7.1"
+    async-exit-hook "^2.0.1"
+    bluebird-lst "^1.0.5"
+    builder-util "5.6.3"
+    builder-util-runtime "4.0.5"
+    chromium-pickle-js "^0.2.0"
+    debug "^3.1.0"
+    ejs "^2.5.7"
+    electron-osx-sign "0.4.8"
+    electron-publish "20.2.0"
+    fs-extra-p "^4.5.2"
+    hosted-git-info "^2.5.0"
+    is-ci "^1.1.0"
+    isbinaryfile "^3.0.2"
+    js-yaml "^3.11.0"
+    lazy-val "^1.0.3"
+    minimatch "^3.0.4"
+    normalize-package-data "^2.4.0"
+    plist "^2.1.0"
+    read-config-file "3.0.0"
+    sanitize-filename "^1.6.1"
+    semver "^5.5.0"
+    temp-file "^3.1.1"
+
+electron-builder-lib@~20.2.0:
   version "20.2.1"
   resolved "https://registry.yarnpkg.com/electron-builder-lib/-/electron-builder-lib-20.2.1.tgz#ff8dc6ac7f6f3c676fc370ddafb2aba464a17672"
   dependencies:
@@ -3195,15 +3248,15 @@ electron-builder-lib@20.2.1, electron-builder-lib@~20.2.0:
     temp-file "^3.1.1"
 
 electron-builder@^20.0.7:
-  version "20.2.1"
-  resolved "https://registry.yarnpkg.com/electron-builder/-/electron-builder-20.2.1.tgz#02b3258fe13ac181a27a81c384298a8dc608cbd5"
+  version "20.3.1"
+  resolved "https://registry.yarnpkg.com/electron-builder/-/electron-builder-20.3.1.tgz#a05bc5cb729d416ee15122552dac3592f2ede4fd"
   dependencies:
     bluebird-lst "^1.0.5"
-    builder-util "5.6.1"
+    builder-util "5.6.3"
     builder-util-runtime "4.0.5"
     chalk "^2.3.2"
     dmg-builder "4.1.1"
-    electron-builder-lib "20.2.1"
+    electron-builder-lib "20.3.1"
     electron-download-tf "4.3.4"
     fs-extra-p "^4.5.2"
     is-ci "^1.1.0"
@@ -3303,12 +3356,12 @@ electron-publish@20.2.0:
     mime "^2.2.0"
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
-  version "1.3.34"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.34.tgz#d93498f40391bb0c16a603d8241b9951404157ed"
+  version "1.3.36"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.36.tgz#0eabf71a9ebea9013fb1cc35a390e068624f27e8"
 
 electron@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.2.tgz#a817cd733c2972b3c7cc4f777caf6e424b88014d"
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.3.tgz#001416ea3a25ce594e317cb5531bc41eadd22f7f"
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
@@ -5250,9 +5303,9 @@ js-types@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/js-types/-/js-types-1.0.0.tgz#d242e6494ed572ad3c92809fc8bed7f7687cbf03"
 
-js-yaml@^3.10.0, js-yaml@^3.4.3, js-yaml@^3.6.1, js-yaml@^3.9.1:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.10.0.tgz#2e78441646bd4682e963f22b6e92823c309c62dc"
+js-yaml@^3.10.0, js-yaml@^3.11.0, js-yaml@^3.4.3, js-yaml@^3.6.1, js-yaml@^3.9.1:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -6009,7 +6062,7 @@ mksnapshot@^0.3.0:
     fs-extra "0.26.7"
     request "^2.79.0"
 
-moment@^2.10.6:
+moment@^2.10.6, moment@^2.21.0:
   version "2.21.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.21.0.tgz#2a114b51d2a6ec9e6d83cf803f838a878d8a023a"
 
@@ -9253,15 +9306,21 @@ string-width@^2.0.0, string-width@^2.1.0, string-width@^2.1.1:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^4.0.0"
 
-string_decoder@^1.0.0, string_decoder@~1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.3.tgz#0fc67d7c141825de94282dd536bec6b9bce860ab"
+string_decoder@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.0.tgz#384f322ee8a848e500effde99901bba849c5d403"
   dependencies:
     safe-buffer "~5.1.0"
 
 string_decoder@~0.10.x:
   version "0.10.31"
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
+
+string_decoder@~1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.3.tgz#0fc67d7c141825de94282dd536bec6b9bce860ab"
+  dependencies:
+    safe-buffer "~5.1.0"
 
 stringify-entities@^1.0.1:
   version "1.3.1"
@@ -9680,8 +9739,8 @@ type-is@~1.6.15:
     mime-types "~2.1.18"
 
 typedarray-to-buffer@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/typedarray-to-buffer/-/typedarray-to-buffer-3.1.2.tgz#1017b32d984ff556eba100f501589aba1ace2e04"
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/typedarray-to-buffer/-/typedarray-to-buffer-3.1.4.tgz#010b582f7366b351ea7cadcb052f1a5e2d4c6e9f"
   dependencies:
     is-typedarray "^1.0.0"
 
