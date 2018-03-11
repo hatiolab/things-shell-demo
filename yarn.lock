@@ -27,8 +27,8 @@
   resolved "https://registry.yarnpkg.com/@hatiolab/things-scene/-/things-scene-2.2.47.tgz#e33e4f551e5dffb49fe46434a3bab834afac3936"
 
 "@hatiolab/things-shell@^0.3.0":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@hatiolab/things-shell/-/things-shell-0.3.5.tgz#72d149b4a6a1fe7daa0242ccbbb516168fb3fed2"
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/@hatiolab/things-shell/-/things-shell-0.3.9.tgz#ae4cafa9445ef87bf28dbb9f4e37254cdd117fd8"
   dependencies:
     "@hatiolab/things-scene" "^2.2.47"
     "@npm-polymer/intl-messageformat" "^1.3.0"
@@ -604,8 +604,8 @@
     "@hatiolab/things-scene" "^2.2.36"
 
 "@things-scene/form@^0.2.0":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@things-scene/form/-/form-0.2.3.tgz#488672e5855c0205860edc5a91912c8cead13e25"
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@things-scene/form/-/form-0.2.4.tgz#951ce927becd43fce831ef8ceedaa330b7dd42cd"
   dependencies:
     "@hatiolab/things-scene" "^2.2.44"
 
@@ -1991,9 +1991,28 @@ builder-util@5.6.1:
     stat-mode "^0.2.2"
     temp-file "^3.1.1"
 
-builder-util@5.6.4, builder-util@^5.6.0:
+builder-util@5.6.4:
   version "5.6.4"
   resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-5.6.4.tgz#d130dded98a58d8bee791408a7071f825f488c7a"
+  dependencies:
+    "7zip-bin" "~3.1.0"
+    app-builder-bin "1.7.2"
+    bluebird-lst "^1.0.5"
+    builder-util-runtime "^4.0.5"
+    chalk "^2.3.2"
+    debug "^3.1.0"
+    fs-extra-p "^4.5.2"
+    is-ci "^1.1.0"
+    js-yaml "^3.11.0"
+    lazy-val "^1.0.3"
+    semver "^5.5.0"
+    source-map-support "^0.5.3"
+    stat-mode "^0.2.2"
+    temp-file "^3.1.1"
+
+builder-util@^5.6.0:
+  version "5.6.5"
+  resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-5.6.5.tgz#f2d156541b8df9599456848e057566443dc04c82"
   dependencies:
     "7zip-bin" "~3.1.0"
     app-builder-bin "1.7.2"
@@ -2022,7 +2041,7 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
 
-cacache@^10.0.1, cacache@^10.0.4:
+cacache@^10.0.4:
   version "10.0.4"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-10.0.4.tgz#6452367999eff9d4188aefd9a14e9d7c6a263460"
   dependencies:
@@ -6414,8 +6433,8 @@ object.pick@^1.3.0:
     isobject "^3.0.1"
 
 obuf@^1.0.0, obuf@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.1.tgz#104124b6c602c6796881a042541d36db43a5264e"
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
 
 on-finished@~2.3.0:
   version "2.3.0"
@@ -9728,19 +9747,19 @@ uglify-es@^3.3.4:
     source-map "~0.6.1"
 
 uglify-js@3.3.x:
-  version "3.3.13"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.3.13.tgz#8a1a89eeb16e2d6a66b0db2b04cb871af3c669cf"
+  version "3.3.14"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.3.14.tgz#d3d84d18722ff342fa96029cca71c67367700079"
   dependencies:
     commander "~2.14.1"
     source-map "~0.6.1"
 
 uglifyjs-webpack-plugin@^1.1.1:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.2.tgz#e7516d4367afdb715c3847841eb46f94c45ca2b9"
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-1.2.3.tgz#bf23197b37a8fc953fecfbcbab66e506f9a0ae72"
   dependencies:
-    cacache "^10.0.1"
+    cacache "^10.0.4"
     find-cache-dir "^1.0.0"
-    schema-utils "^0.4.2"
+    schema-utils "^0.4.5"
     serialize-javascript "^1.4.0"
     source-map "^0.6.1"
     uglify-es "^3.3.4"
@@ -10162,8 +10181,8 @@ watchpack@^1.5.0:
     neo-async "^2.5.0"
 
 wbuf@^1.1.0, wbuf@^1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/wbuf/-/wbuf-1.7.2.tgz#d697b99f1f59512df2751be42769c1580b5801fe"
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/wbuf/-/wbuf-1.7.3.tgz#c1d8d149316d3ea852848895cb6a0bfe887b87df"
   dependencies:
     minimalistic-assert "^1.0.0"
 

@@ -1,13 +1,14 @@
 {
   "name": "@things-scene/demo",
+  "description": "Things Scene Demo Application",
   "version": "1.0.0",
+  "things-scene": true,
   "main": "src/index.js",
   "license": "http://license.hatiolab.com/EULA",
   "author": "Hatio Lab. <heartyoh@hatiolab.com>",
   "scripts": {
     "serve": "things-shell"
   },
-  "things-shell": true,
   "dependencies": {
     "@hatiolab/things-shell": "^0.3.0",
     "@things-scene/billboard": "^0.2.0",
