@@ -6,7 +6,7 @@ const NATURE = {
   rotatable: true,
   properties: [{
     type: 'abc',
-    label: 'abc property',
+    label: 'abc',
     name: 'abc'
   }],
   "value-property": 'abc'

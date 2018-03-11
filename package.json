@@ -7,7 +7,8 @@
   "license": "http://license.hatiolab.com/EULA",
   "author": "Hatio Lab. <heartyoh@hatiolab.com>",
   "scripts": {
-    "serve": "things-shell"
+    "serve": "things-shell",
+    "build": "webpack"
   },
   "dependencies": {
     "@hatiolab/things-shell": "^0.3.0",
@@ -37,5 +38,8 @@
     "@things-scene/traffic": "^0.2.0",
     "@things-scene/visualizer": "^0.2.0",
     "@things-scene/wheel-sorter": "^2.1.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.11"
   }
 }

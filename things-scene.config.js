@@ -5,7 +5,7 @@ import icon from './assets/no-image.png';
 
 var templates = [{
   type: 'ABC',
-  description: 'abc component',
+  description: 'abc comp.',
   group: 'shape', /* line|shape|textAndMedia|chartAndGauge|table|container|dataSource|IoT|3D|warehouse|form|etc */
   icon,
   model: {
