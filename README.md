@@ -3,6 +3,10 @@
 * 데이타 비쥬얼라이제이션을 위한 깜찍한 플랫폼을 개발해가고 있습니다.
 * 하티오랩의 Things Board 기반에서 응용될 수 있는 비주얼 컴포넌트들을 개발하고 테스트하기 위한 플랫폼입니다.
 * Things Shell https://github.com/hatiolab/things-shell
+# 지원 (Support)
+* MacOS
+* ~~Windows~~ (Not tested)
+* ~~Linux~~ (Not tested)
 # 설치
 ```
 $ rm yarn.lock
