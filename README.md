@@ -9,11 +9,11 @@
 * ~~Linux~~ (Not tested)
 # 설치
 ```
-$ yarn
+$ yarn install
+$ yarn build
 ```
 # 실행
 ```
-$ yarn build
 $ yarn serve
 ```
 * 브라우저(Chrome, ~~Safari~~, ~~Firefox~~, Opera)를 열어서 접속
