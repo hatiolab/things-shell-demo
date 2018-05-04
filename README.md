@@ -9,16 +9,20 @@
 * ~~Linux~~ (Not tested)
 # 설치
 ```
-$ rm yarn.lock
 $ yarn
 ```
 # 실행
 ```
+$ yarn build
 $ yarn serve
 ```
 * 브라우저(Chrome, ~~Safari~~, ~~Firefox~~, Opera)를 열어서 접속
 ```
-http://0.0.0.0:3001
+http://0.0.0.0:3000
+```
+* 서비스포트를 바꾸고 싶다면,..
+```
+$ yarn serve -p 3001
 ```
 # 참조
 * http://things-board.hatiolab.com/

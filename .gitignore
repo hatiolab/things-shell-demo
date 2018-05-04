@@ -1,12 +1,9 @@
 # Logs
 logs
 *.log
-npm-debug.log*
-coverage
-dist
 node_modules
-.DS_Store
-*.report.html
-bower_components
+dist-client
 licenses/*.js
-boards
+db.sqlite
+yarn.lock
+.DS_Store

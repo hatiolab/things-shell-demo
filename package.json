@@ -2,13 +2,12 @@
   "name": "@things-scene/demo",
   "description": "Things Scene Demo Application",
   "version": "1.0.0",
-  "things-scene": true,
-  "main": "src/index.js",
   "license": "http://license.hatiolab.com/EULA",
   "author": "Hatio Lab. <heartyoh@hatiolab.com>",
   "scripts": {
     "serve": "things-shell",
-    "build": "webpack"
+    "serve:dev": "things-shell-dev",
+    "build": "webpack --config node_modules/@hatiolab/things-shell/webpack.config.js"
   },
   "dependencies": {
     "@hatiolab/things-shell": "*",
@@ -40,8 +39,5 @@
     "@things-scene/traffic": "*",
     "@things-scene/visualizer": "*",
     "@things-scene/wheel-sorter": "*"
-  },
-  "devDependencies": {
-    "webpack-cli": "^2.0.11"
   }
 }
