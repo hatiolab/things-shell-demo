@@ -2,7 +2,6 @@
 ## Concept
 * We are developing an adorable platform for data visualization.
 * It is a platform for developing and testing visual components that can be applied to Things Board of HatioLab.
-* Things Shell https://github.com/hatiolab/things-shell
 # Support
 * MacOS
 * ~~Windows~~ (Not tested)
