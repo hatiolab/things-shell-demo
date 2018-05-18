@@ -4,6 +4,5 @@ logs
 node_modules
 dist-client
 licenses/*.js
-db.sqlite
 yarn.lock
 .DS_Store

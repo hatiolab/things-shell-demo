@@ -7,6 +7,8 @@
   "scripts": {
     "serve": "things-shell",
     "serve:dev": "things-shell-dev",
+    "migration": "things-shell-migration",
+    "migration:revert": "things-shell-migration --undo",
     "build": "webpack --config node_modules/@hatiolab/things-shell/webpack.config.js"
   },
   "dependencies": {
@@ -25,6 +27,7 @@
     "@things-scene/google-map": "*",
     "@things-scene/half-roundrect": "*",
     "@things-scene/indoor-map": "*",
+    "@things-scene/legend": "*",
     "@things-scene/marker": "*",
     "@things-scene/mpi": "*",
     "@things-scene/mqtt": "*",
