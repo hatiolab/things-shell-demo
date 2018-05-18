@@ -16,7 +16,7 @@ $ yarn build
 ```
 $ yarn serve
 ```
-* 브라우저(Chrome, ~~Safari~~, ~~Firefox~~, Opera)를 열어서 접속
+* 브라우저(Chrome, ~~Safari~~, Firefox, Opera)를 열어서 접속
 ```
 http://0.0.0.0:3000
 ```
