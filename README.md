@@ -25,5 +25,6 @@ $ yarn serve -p 3001
 ```
 # References
 * http://things-board.hatiolab.com/
+* https://www.youtube.com/watch?v=l55VT4vNcmU
 * https://www.youtube.com/playlist?list=PLrcYC3lASr3spRCJIRYqfm3axhMMEoimP
 * https://www.youtube.com/playlist?list=PLrcYC3lASr3sFvDlSaHRhTgIDSZ4c3KhO
