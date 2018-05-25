@@ -1,5 +1,5 @@
 # Thing Shell demo platform for data visualization
-## Concept
+## Things Shell
 * We are developing an adorable platform for data visualization.
 * It is a platform for developing and testing visual components that can be applied to Things Board of HatioLab.
 ## Things Shell supports
@@ -10,6 +10,9 @@
 * MacOS
 * ~~Windows~~ (Not tested)
 * ~~Linux~~ (Not tested)
+# Pre-requisites
+* nodejs - v7.6.0 or greater
+* yarn - https://yarnpkg.com/
 # Install
 ```
 $ yarn install
