@@ -1,12 +1,11 @@
-# Thing Shell demo platform for data visualization
+# Things Shell demo platform for data visualization
 ## Things Shell is
-* We are developing an adorable platform for data visualization.
-* Things Shell is a platform for developing and testing visual components that can be applied to Things Board of HatioLab.
-## Things Shell will provides followings
+* a platform for developing and testing visual components that can be applied to Things Board of HatioLab.
+## Things Shell will provide
 * Things Board Custom Component Development Kit
 * Things Board Service Composition
 * Things Board Integration
-# Support
+# Things Shell supports
 * MacOS
 * ~~Windows~~ (Not tested)
 * ~~Linux~~ (Not tested)
