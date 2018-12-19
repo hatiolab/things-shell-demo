@@ -2,7 +2,7 @@
   "name": "@things-scene/demo",
   "description": "Things Scene Demo Application",
   "version": "1.0.0",
-  "license": "http://license.hatiolab.com/EULA",
+  "license": "SEE LICENSE IN http://license.hatiolab.com/EULA",
   "author": "Hatio Lab. <heartyoh@hatiolab.com>",
   "scripts": {
     "serve": "things-shell",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@hatiolab/things-shell": "*",
+    "@hatiolab/things-scene": "^2.5.0-rc.4",
     "@things-scene/billboard": "*",
     "@things-scene/chartjs": "*",
     "@things-scene/clock": "*",
