@@ -41,6 +41,7 @@
     "@things-scene/tab": "*",
     "@things-scene/table": "*",
     "@things-scene/traffic": "*",
+    "@things-scene/visualizer": "*",
     "@things-scene/wheel-sorter": "*"
   }
 }
