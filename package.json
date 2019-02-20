@@ -12,8 +12,8 @@
     "build": "webpack --config node_modules/@hatiolab/things-shell/webpack.config.js"
   },
   "dependencies": {
+    "@hatiolab/things-scene": "*",
     "@hatiolab/things-shell": "*",
-    "@hatiolab/things-scene": "^2.5.0-rc.4",
     "@things-scene/billboard": "*",
     "@things-scene/chartjs": "*",
     "@things-scene/clock": "*",
@@ -41,7 +41,6 @@
     "@things-scene/tab": "*",
     "@things-scene/table": "*",
     "@things-scene/traffic": "*",
-    "@things-scene/visualizer": "*",
     "@things-scene/wheel-sorter": "*"
   }
 }
