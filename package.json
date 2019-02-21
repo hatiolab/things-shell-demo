@@ -21,6 +21,7 @@
     "@things-scene/compass": "*",
     "@things-scene/echart": "*",
     "@things-scene/elasticsearch": "*",
+    "@things-scene/excel": "*",
     "@things-scene/firebase": "*",
     "@things-scene/forklift": "*",
     "@things-scene/form": "*",
